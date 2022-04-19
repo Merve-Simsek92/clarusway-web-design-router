@@ -2,9 +2,13 @@ import React from 'react'
 import html from "../assets/img/logo_html.png"
 import css from "../assets/img/logo_css.png"
 import brush from "../assets/img/logo_brush.png"
+import { useNavigate } from "react-router-dom";
 import "./Home.css"
 
+
+
 const Home = () => {
+  const navigate=useNavigate()
   return (
     <div>
   <main className="main">
@@ -21,17 +25,17 @@ const Home = () => {
     </div>
     <div className="bottom">
     <div className="left">
-            <img src={html} alt=""/>
+           <img onClick={()=>navigate("/html")} src={html} alt=""/>
            <h2>HTML5 Markup</h2> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, vitae.</p>
         </div>
         <div className="left">
-            <img src={css} alt=""/>
+            <img onClick={()=>navigate("/css")} src={css} alt=""/>
             <h2>CSS3 Styling</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, vitae.</p>
         </div>
         <div className="left">
-            <img src={brush} alt=""/>
+            <img onClick={()=>navigate("/logo")} src={brush} alt=""/>
             <h2>Graphic Design</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, vitae.</p>
         </div>
