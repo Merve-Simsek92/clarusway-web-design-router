@@ -1,9 +1,9 @@
 import React from 'react'
 import {NavLink} from "react-router-dom"
-
+import "./Navbar.css"
 const Navbar = () => {
   return (
-    <div>
+    <div className='header'>
 
 
 <div><h2 className='title'>
@@ -12,6 +12,7 @@ const Navbar = () => {
     <NavLink to="/about">About</NavLink>
     <NavLink to="/services">Services</NavLink>
     </div>
+    
      </div>
   )
 }

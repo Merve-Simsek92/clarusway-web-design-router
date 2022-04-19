@@ -1,0 +1,67 @@
+.middle{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #35424a;
+    height: 5rem;
+    color:white
+}
+input{
+height: 1.6rem;
+}
+h3{
+    margin: 30px;
+    padding-top: 10px;
+}
+.button{
+    background-color: #E84A1D;
+    border: none;
+    width:6rem;
+    height:2rem;
+    margin-right: 20px;
+    border-radius: 1px;
+    color: white;
+}
+.middle p{
+    margin-left:10px;
+}
+.p1-end{
+    background-color: rgba(204, 204, 204, 0.685);
+    height: 20%;
+    border: 0.5px solid rgba(211, 203, 203, 0.89);
+    margin: 15px;
+    padding:10px;
+    line-height: 25px;
+    width: 100%;
+
+}
+.p1-style{
+
+}
+.alt{
+    display: flex;
+    justify-content: space-around;
+}
+.mail-end{
+   background-color: #35424a;
+   height: 320px;
+   margin-top: 10px;
+   color: white;
+   width: 100%;
+   text-align: left;
+
+}
+.mail-end input, .mail-end label,.mail-end textarea{
+    margin: 5px;
+    margin-left: 10px;
+    width:90% ;
+
+}
+.mail-end button {
+    margin: 5px;
+    margin-left: 10px;
+    width: ; }
+  .bottom-end {
+      display: block;
+     text-align: left;
+  }

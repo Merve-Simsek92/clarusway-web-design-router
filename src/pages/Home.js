@@ -1,8 +1,8 @@
 import React from 'react'
-import html from "../assets/img/logo_html"
-import css from "../assets/img/logo_css"
-import brush from "../assets/img/logo_brush"
-
+import html from "../assets/img/logo_html.png"
+import css from "../assets/img/logo_css.png"
+import brush from "../assets/img/logo_brush.png"
+import "./Home.css"
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
         </div>
     </div>
     <div className="bottom">
-        <div className="left">
+    <div className="left">
             <img src={html} alt=""/>
            <h2>HTML5 Markup</h2> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, vitae.</p>

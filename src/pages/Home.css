@@ -1,0 +1,49 @@
+
+
+
+
+
+
+.main{
+    background-image:url(../assets/img/showcase.jpg);
+    background-size: cover;
+    height: 23rem;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    text-align: center;
+    color:white;
+}
+.main p{
+    font-size: 0.7rem;
+    margin-top: 20px;
+}
+.mail{
+    height: 5rem;
+    background-color: #35424a;
+    color: white;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    width:8rem;
+    height: 1.9rem;
+}
+button{
+    background-color: #E84A1D;
+    padding: 0.6rem;
+    color:white;
+    border:none;
+    width: 8rem;
+}
+img{
+    width: 20%;
+}
+.bottom{
+    display: flex;
+}
+.left{
+    text-align: center;
+}
